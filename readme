@@ -1,0 +1,13 @@
+src目录下几个包中内容的说明：
+1.bean包：基于ORM的思想，Customer对应于数据库中的Customer表；Order对应于数据库中的Order表；
+2.blob包：使用preparedstatement向数据库中插入blob类型的数据
+3.connection包：测试数据库是否能够有效的连接到数据库
+4.dao包：体现DAO的编程思想
+5.dao_improve包：改进后的DAO
+6.dbutils包：使用dbutils实现数据库的增删改查操作
+7.exercise包：数据库的有关操作的练习包
+8.junit包：单元测试包，测试某些功能
+9.preparedstatement包：preparedstatement的CRUD操作
+10.transaction包：数据库事务练习包
+11.util包：数据库连接和释放资源的工具包
+12.util2Dbcp包：使用数据库连接池技术实现数据库连接和释放资源的工具包
